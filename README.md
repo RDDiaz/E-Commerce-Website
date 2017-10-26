@@ -3,10 +3,13 @@ Website project created for e-commerce course
 
 ### Accessing the live site
 The website can be accessed using the login 
+
 Email: "Guest@gmail.com"
-Password:"Password1" (case sensitive)
+
+Password: "Password1" (case sensitive)
 
 Alternatively, you can interact with the site by registering a new account.
+
 The password field requires a password with at least 1 uppercase letter, 1 number and no special characters.
 
 (Pictured: Screenshot of Website, logged in as Guest Name"
