@@ -6,7 +6,7 @@
 	<style>
 		.product_info_table, .account_info_table {
 			border-collapse: collapse;
-			border: 1px solid maroon;
+			border: 2px solid black;
 		}
 		.product_info_table .header, .product_info_table td, .account_info_table .header, .account_info_table td{
 			margin: 0;
@@ -15,24 +15,25 @@
 		}
 		.product_info_table .header, .account_info_table .header{
 			border: 2px solid black;
-			background: white;
-			color: black;
+			background: black;
+			color: white;
 		}
 		.product_info_table td, .account_info_table td{
 			border: 1px solid white;
-			background: black;
-			color: white;			
+			background: lightgrey;
+			color: blue;			
 		}
 		
 		.mainSection{
-			width: 80%;
+			width: 75%;
 			margin: 0 auto;
-			background: lightgrey;
+			background: black;
 			padding: 10px;
+			color: white;
 		}
 		
 		nav.topNavBar{
-			width: 75%;
+			width: 90%;
 			margin: 0 auto;
 			margin-bottom: 1em;
 			padding: 5px 0px;
@@ -62,7 +63,7 @@
 		}
 
 		nav.topNavBar ul li:hover>a{
-			color: teal;
+			color: black;
 			background: white;
 		}	
 	</style>
@@ -74,17 +75,18 @@
 			<li>
 				<?php
 				if(isset($_SESSION['shirt_customers_id']) && isset($_SESSION['full_name'])){
-					echo "Welcome {$_SESSION['full_name']} <a href='logout.php'>Logout</a>";
+					echo "[{$_SESSION['full_name']}]";
 				}else{
-					echo "<a href='login.php'>login</a>";
+					echo "<a href='login.php'>Login</a>";
 				}
 				?>
 			</li>
 			<li><a href='account_info.php'>My Account</a></li>
 			<li><a href='order.php'>Order</a></li>
-			<li><a href='registration.php'>Register</a></li>
+			<li><a href='registration.php'>Register</a></li>	
 			<li><a href='view_current_orders.php'>Pending Orders</a></li>
 			<li><a href='view_previous_orders.php'>Past Orders</a></li>
 			<li><a href='view_products.php'>Available Products</a></li>
+			<li><a href='logout.php'>Logout</a><li>
 		</ul>
 	</nav>
