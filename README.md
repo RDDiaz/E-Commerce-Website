@@ -2,10 +2,12 @@
 Website project created for e-commerce course
 
 ### Accessing the live site
+[Ecommerce Website](http://rddiaz.people.ysu.edu/e_commerce/final_project/login.php)
+
 The website can be accessed using the login 
 
-Email: Guest@gmail.com\
-Password(case sensitive): Password1 
+**Email:** Guest@gmail.com\
+**Password(case sensitive):** Password1 
 
 Alternatively, you can interact with the site by registering a new account.\
 The password field requires a password with at least 1 uppercase letter, 1 number and no special characters.
